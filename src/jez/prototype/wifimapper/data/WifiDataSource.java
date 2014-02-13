@@ -110,8 +110,8 @@ public class WifiDataSource {
 //		if (DEBUG) Log.i(TAG, c.getColumnIndex(DatabaseHelper.COLUMN_LAT) + "");
 //		if (DEBUG) Log.i(TAG, c.getColumnIndex(DatabaseHelper.COLUMN_ACCURACY) + "");
 		
-		if (DEBUG) Log.i(TAG, "data: ");		
-		if (DEBUG) Log.i(TAG, c.getLong(c.getColumnIndex(DatabaseHelper.COLUMN_ID)) + "");
+//		if (DEBUG) Log.i(TAG, "data: ");		
+//		if (DEBUG) Log.i(TAG, c.getLong(c.getColumnIndex(DatabaseHelper.COLUMN_ID)) + "");
 //		if (DEBUG) Log.i(TAG, c.getString(c.getColumnIndex(DatabaseHelper.COLUMN_SSID)) + "");
 //		if (DEBUG) Log.i(TAG, c.getString(c.getColumnIndex(DatabaseHelper.COLUMN_BSSID)) + "");
 //		if (DEBUG) Log.i(TAG, c.getLong(c.getColumnIndex(DatabaseHelper.COLUMN_TIMESTAMP)) + "");
@@ -122,7 +122,7 @@ public class WifiDataSource {
 //		if (DEBUG) Log.i(TAG, c.getFloat(c.getColumnIndex(DatabaseHelper.COLUMN_ACTIVITY)) + "");
 //		if (DEBUG) Log.i(TAG, c.getFloat(c.getColumnIndex(DatabaseHelper.COLUMN_LONG)) + "");
 //		if (DEBUG) Log.i(TAG, c.getFloat(c.getColumnIndex(DatabaseHelper.COLUMN_LAT)) + "");
-		if (DEBUG) Log.i(TAG, c.getFloat(c.getColumnIndex(DatabaseHelper.COLUMN_ACCURACY)) + "");
+//		if (DEBUG) Log.i(TAG, c.getFloat(c.getColumnIndex(DatabaseHelper.COLUMN_ACCURACY)) + "");
 		
 		data.setId(c.getLong(c.getColumnIndex(DatabaseHelper.COLUMN_ID)));
 		data.setSsid(c.getString(c.getColumnIndex(DatabaseHelper.COLUMN_SSID)));
